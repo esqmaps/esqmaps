@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Evidence Map - Esq. Maps</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:white;color:#1a1a1a;display:flex;flex-direction:column;min-height:100vh}
+.em-nav{display:flex;align-items:stretch;background:#FFE500;position:sticky;top:0;z-index:100;padding:0}
+.em-logo{text-decoration:none;display:inline-flex;align-items:center;line-height:1;padding:0 1.5rem;background:#FFE500}
+.em-logo-inner{display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.em-logo-esq,.em-logo-maps{font-family:'Playfair Display',serif;font-size:28px;font-weight:700;color:#1a1a1a;letter-spacing:-0.02em;line-height:0.88;display:block}
+.dot{font-size:12px;vertical-align:baseline;opacity:0.5}
+.em-back{font-size:0.875rem;font-weight:500;color:#1a1a1a;text-decoration:none;padding:1.25rem;display:flex;align-items:center}
+.em-back:hover{background:rgba(0,0,0,0.08)}
+.content{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:4rem 2rem;text-align:center}
+h1{font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:400;margin-bottom:1rem;letter-spacing:-0.02em}
+h1 em{font-style:italic}
+p{font-size:1.0625rem;color:#555;font-weight:300;line-height:1.7;max-width:480px;margin-bottom:2rem}
+.notify-form{display:flex;gap:0.75rem;flex-wrap:wrap;justify-content:center}
+.notify-form input{padding:0.875rem 1.25rem;font-size:0.9375rem;font-family:'DM Sans',sans-serif;border:1px solid #e8e8e8;outline:none;width:260px}
+.notify-form input:focus{border-color:#1a1a1a}
+.notify-form button{background:#1a1a1a;color:white;padding:0.875rem 1.75rem;font-size:0.9375rem;font-weight:400;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;letter-spacing:0.02em}
+.notify-form button:hover{background:#333}
+.tag{display:inline-block;font-size:0.75rem;color:#999;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:2rem;border-bottom:1px solid #e8e8e8;padding-bottom:0.375rem}
+.footer{padding:1.5rem 2.5rem;background:#1a1a1a;text-align:center;font-size:0.8125rem;color:#777;font-weight:300}
+</style>
+</head>
+<body>
+<nav class="em-nav">
+  <a href="index.html" class="em-logo">
+    <div class="em-logo-inner">
+      <span class="em-logo-esq">ESQ<span class="dot">.</span></span>
+      <span class="em-logo-maps">MAPS</span>
+    </div>
+  </a>
+  <a href="index.html" class="em-back">&larr; Back to home</a>
+</nav>
+
+<div class="content">
+  <div class="tag">Coming soon</div>
+  <h1>The full Evidence <em>map</em></h1>
+  <p>A complete, printable decision-tree map of Evidence — from relevance through privilege. Built around how you think, not how textbooks are organized.</p>
+  <div class="notify-form">
+    <input type="email" placeholder="Your email for early access" />
+    <button type="button">Notify me</button>
+  </div>
+</div>
+
+<footer class="footer">&copy; 2026 Esq. Maps</footer>
+</body>
+</html>
